@@ -23,186 +23,206 @@
       </ul>
     </div>
 
-    <div class="goal">
-      <h2>My Goals</h2>
-      <ul>
-        <li>Keep on becoming the best version of myself </li>
-        <li>Learn continually.</li>
-        <li>Always aim high. Be the standard.</li>
-        <li>Get a stable job that is both fun and enjoyable!</li>
-        <li>Always help people in need if possible!</li>
-        <li>Improve mindset</li>
-        <li>Create a plan for a better path in life and always have a back up one.</li>
-      </ul>
+  <div class="goal">
+    <h2>My Goals</h2>
+    <ul>
+      <li>Keep on becoming the best version of myself </li>
+      <li>Learn continually.</li>
+      <li>Always aim high. Be the standard.</li>
+      <li>Get a stable job that is both fun and enjoyable!</li>
+      <li>Always help people in need if possible!</li>
+      <li>Improve mindset</li>
+      <li>Create a plan for a better path in life and always have a back up one.</li>
+    </ul>
+    /div>
+
+
+  <div class="container">
+    <div class="statement">
+      <h2>Thoughts about F2F Class</h2>
+      <p>
+        For me, face-to-face classes is a better way for students who cannot
+        afford to buy gadgets or WiFi connection due to financial problems.
+        Also, it is a good way for studens to learn rather than conducting
+        classes online. It shows how te students really undersands the topic
+        and shows the professor how can he/she improve his/her students
+        learning syles better.
+      </p>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <h2>Gallery</h2>
+    <img src="./images/yuta.jpg" alt="Yuta" />
+    <img src="./images/stop.jpg" alt="stop" />
+    <img src="./images/bianca.jpg" alt="Bianca" />
+    <img src="./images/haku.jpg" alt="Haku" />
+    <img src="./images/pompompurin.jpg" alt="Pompompurin" />
+  </div>
+
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <form>
+
+      <div class="upper">
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+        </div>
+
+        <div>
+          <label for="fullname">Fullname</label>
+          <input type="text" name="fullname" />
+        </div>
+
+        <div>
+          <label for="age">Age</label>
+          <input type="number" name="age" />
+        </div>
+
+        <div>
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" />
+        </div>
+
+        <div class="message-container">
+          <label for="message">Message</label>
+          <textarea name="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="checkbox-container">
+          <input type="checkbox" name="sendme" />
+          <label for="sendme">Send me a copy</label>
+        </div>
+
+        <div class="submit-container">
+          <input type="submit" value="Submit" />
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="comment-form">
+    <h2>Leave a Comment</h2>
+    <form>
+
+      <div>
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          placeholder="Enter your Name"
+          oninput="validateInput()"/>
+      </div>
+
+      <div>
+        <label for="comment">Comment</label>
+        <textarea
+          id="comment"
+          name="comment"
+          required
+          placeholder="Enter your Comment"
+          oninput="validateInput()"></textarea>
+      </div>
+
+      <button type="submit" id="submit_btn" class="submit-btn">
+        Comment
+      </button>
+    </form>
+  </div>
+
+    <h2>Add a comment here</h2>
+    <form class="add-comment">
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your name"/>
+
+      <textarea
+        name="textarea-for-comment"
+        id="textarea_for_comment"
+        placeholder="Add your comment here">
+      </textarea>
+
+      <button type="button" name="comment" 
+          id="comment" onclick="addComment()">Comment</button>
+      <button id="sort_asc" onclick="sortComments('asc')">
+          Sort by Date (Ascending)
+      </button>
+
+      <button id="sort_desc" onclick="sortComments('desc')">
+        Sort by Date (Descending)
+      </button>
+    </form>
+
+    <div class="comments-of-team">
+      <h3>Comments</h3>
     </div>
 
+    <div class="button-container">
+      <a href="countries.html">
+        <button class="styledButton">Countries</button></a>
+    </div>
 
     <div class="container">
       <div class="statement">
-        <h2>Thoughts about F2F Class</h2>
+        <h2>The so called "post-game" (Initial thoughts, Where I see myself 5 years from.)</h2>
         <p>
-          For me, face-to-face classes is a better way for students who cannot
-          afford to buy gadgets or WiFi connection due to financial problems.
-          Also, it is a good way for studens to learn rather than conducting
-          classes online. It shows how te students really undersands the topic
-          and shows the professor how can he/she improve his/her students
-          learning syles better.
+          The past few months has been a rollercoastr of emotions.
+          To get started, I really thought this was going to be a smooth sailing ride.
+          Yet, I assumed to quickly. Every Saturday, 4:30 PM, I called it "Judgement Day",
+          it brings out the real you, kung worthy ka ba talaga para sa industriya na to.
         </p>
-      </div>
-    </div>
 
-    <div class="gallery">
-      <h2>Gallery</h2>
-      <img src="./images/yuta.jpg" alt="Yuta" />
-      <img src="./images/stop.jpg" alt="stop" />
-      <img src="./images/bianca.jpg" alt="Bianca" />
-      <img src="./images/haku.jpg" alt="Haku" />
-      <img src="./images/pompompurin.jpg" alt="Pompompurin" />
-    </div>
+        <p>
+          Few of us already predicted, "Hindi to magiging madali tulad ng ibang sub", 
+          "Bagsak yata ako dito", that kind of thinking. 
+          Sir Steven showed us a glimpse of this so-called industry. Oo, super hirap. 
+          Not for the fragile beings.Pero kahit ganun, super galing mag turo, 
+          di nagkulang, clear and precise instructions.
+          I'm very thankful and tbh, lucky na naging prof ko siya.
+        </p>
 
-    <div class="contact">
-      <h2>Contact Me</h2>
-      <form>
-        <div class="upper">
-          <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" />
-          </div>
-          <div>
-            <label for="fullname">Fullname</label>
-            <input type="text" name="fullname" />
-          </div>
-          <div>
-            <label for="age">Age</label>
-            <input type="number" name="age" />
-          </div>
-
-          <div>
-            <label for="subject">Subject</label>
-            <input type="text" name="subject" />
-          </div>
-
-          <div class="message-container">
-            <label for="message">Message</label>
-            <textarea name="message" cols="30" rows="10"></textarea>
-          </div>
-
-          <div class="checkbox-container">
-            <input type="checkbox" name="sendme" />
-            <label for="sendme">Send me a copy</label>
-          </div>
-
-          <div class="submit-container">
-            <input type="submit" value="Submit" />
-          </div>
-        </div>
-      </form>
-    </div>
-
-    <div class="comment-form">
-      <h2>Leave a Comment</h2>
-      <form>
-        <div>
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required
-            placeholder="Enter your Name"
-            oninput="validateInput()"/>
-        </div>
-
-        <div>
-          <label for="comment">Comment</label>
-          <textarea
-            id="comment"
-            name="comment"
-            required
-            placeholder="Enter your Comment"
-            oninput="validateInput()"></textarea>
-        </div>
-        <button type="submit" id="submit_btn" class="submit-btn">
-          Comment
-        </button>
-      </form>
-    </div>
-
-      <h2>Add a comment here</h2>
-      <form class="add-comment">
-        <input
-          type="text"
-          name="name"
-          id="name"
-          placeholder="Enter your name"/>
-        <textarea
-          name="textarea-for-comment"
-          id="textarea_for_comment"
-          placeholder="Add your comment here">
-        </textarea>
-        <button type="button" name="comment" 
-                id="comment" onclick="addComment()">Comment</button>
-        <button id="sort_asc" onclick="sortComments('asc')">
-          Sort by Date (Ascending)
-        </button>
-        <button id="sort_desc" onclick="sortComments('desc')">
-          Sort by Date (Descending)
-        </button>
-      </form>
-
-      <div class="comments-of-team">
-        <h3>Comments</h3>
-      </div>
-
-      <div class="button-container">
-        <a href="countries.html"><button class="styledButton">Countries</button></a>
-      </div>
-
-      <div class="container">
-        <div class="statement">
-          <h2>The so called "post-game" (Initial thoughts, Where I see myself 5 years from.)</h2>
-          <p>
-            The past few months has been a rollercoastr of emotions.
-            To get started, I really thought this was going to be a smooth sailing ride.
-            Yet, I assumed to quickly. Every Saturday, 4:30 PM, I called it "Judgement Day",
-            it brings out the real you, kung worthy ka ba talaga para sa industriya na to.
-          </p>
-
-          <p>
-            Few of us already predicted, "Hindi to magiging madali tulad ng ibang sub", 
-            "Bagsak yata ako dito", that kind of thinking. 
-            Sir Steven showed us a glimpse of this so-called industry. Oo, super hirap. 
-            Not for the fragile beings.
-            Pero kahit ganun, super galing mag turo, di nagkulang, clear and precise instructions.
-            I'm very thankful and tbh, lucky na naging prof ko siya.
-          </p>
-
-          <p>
-            5 years from now:
-
-            To be honest, I kinda see myself not working with the industry Sir Steven showed me.
-            I'm at 50-50 kung ano ba talaga destinasyon ko sa buhay na to. A part of me is saying
-            na "Para sayo to, pinili mo to eh, panindigan mo na hanggang dulo" and another saying na:
-            "Mahirap to, mag ibang work ka nalang, shift ka na. Hindi to para sa katulad mo."
-            These past months I've been contemplating to drop his subject due to unforseen events,
-            pero kahit papaano, I still have the will to fight thanks to my emotional support system ^^
-          </p>
+        <p>
+          5 years from now:
+          To be honest, I kinda see myself not working with the industry 
+          Sir Steven showed me.
+          I'm at 50-50 kung ano ba talaga destinasyon ko sa buhay na to. 
+          A part of me is saying
+          na "Para sayo to, pinili mo to eh, panindigan mo na hanggang dulo" 
+          and another saying na:
+          "Mahirap to, mag ibang work ka nalang, shift ka na. 
+          Hindi to para sa katulad mo."
+          These past months I've been contemplating to drop his subject due to 
+          unforseen events, pero kahit papaano, I still have the will to fight 
+          thanks to my emotional support system ^^
+        </p>
             
           <p>
             What and Where do I want to be?
 
             Maybe I'll still be exploring my career choices as I go through life.
-            I don't wanna rush things make another mistake again. I want a career where it
-            is both fun and enjoyable at the same time. Pero the IT industry is still one of my choices to pursue
+            I don't wanna rush things make another mistake again. 
+            I want a career where it
+            is both fun and enjoyable at the same time. 
+            Pero the IT industry is still one of my choices to pursue
             if given the opportunity.
           </p>
 
           <p>
-            Again, I want to take the opportunity to say, thank you Sir Steven for putting the effort to teach us
-            what this subject is and what industry are we about tackle on if ever na mapili namin to strive for it.
-            Madami ako natutunan not only from educational but a lot of life lessons that you shared every end of the discussions.
-            You made me realize a lot, na hindi lahat ng bagay easy easy lag, lahat pinaghihirapan para makamit ang
-            mga bagay na gusto na makamit ng isang estudyante na tulad ko. Maraming salamat po!
+            Again, I want to take the opportunity to say, thank you Sir Steven 
+            for putting the effort to teach us
+            what this subject is and what industry are we about tackle on if 
+            ever na mapili namin to strive for it.
+            Madami ako natutunan not only from educational but a lot of life 
+            lessons that you shared every end of the discussions.
+            You made me realize a lot, na hindi lahat ng bagay easy easy lag, 
+            lahat pinaghihirapan para makamit ang
+            mga bagay na gusto na makamit ng isang estudyante na tulad ko. 
+            Maraming salamat po!
           </p>
 
         </div>

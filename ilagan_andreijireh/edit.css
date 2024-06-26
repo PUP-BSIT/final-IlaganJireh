@@ -421,7 +421,6 @@ input[type="submit"]:hover {
   text-align: center;
 }
 
-
 @media (max-width: 426px) {
   .message-container {
     display: flex;
