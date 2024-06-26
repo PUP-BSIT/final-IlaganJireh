@@ -1,21 +1,3 @@
-function validateInput() {
-const inputField = document.getElementById("comment");
-const nameField = document.getElementById("name");
-const submitBtn = document.getElementById("submit_btn");
-
-const isValid = (field) => !field.value.trim().length;
-
-const enableSubmit = isValid(inputField) && isValid(nameField);
-submitBtn.disabled = !enableSubmit;
-
-submitBtn.classList.toggle('enabled', enableSubmit);
-}
-
-document.getElementById("comment").addEventListener('input', validateInput);
-document.getElementById("name").addEventListener('input', validateInput);
-
-
-//-- TESTING --
 document.addEventListener("DOMContentLoaded", function () {
   let nameInput = document.getElementById("name");
   let commentTextarea = document.getElementById("textarea_for_comment");
